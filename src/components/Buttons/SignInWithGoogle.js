@@ -6,9 +6,9 @@ function Google(props) {
     
     return (
         <View style={{alignItems: 'center',marginVertical:10 }}>
-            <View style={{ borderWidth:1.5, borderRadius:30,width: '80%',marginBottom:10, borderColor:'#3827b2'}}>
+            <View style={{ borderWidth:1.5, borderRadius:30,width: '80%',marginBottom:10, borderColor:'#3827b2', alignContent:'space-between'}}>
             <TouchableOpacity style={{justifyContent: 'center', alignItems: 'center',height:50, }}>
-                <View style={{flexDirection:'row'}}>
+                <View style={{flexDirection:'row',justifyContent: 'space-between', alignContent: 'space-between', alignSelf: 'center'}}>
                 <Text style={{fontWeight: 'bold', fontSize:17, paddingHorizontal:10}}>SIGN IN WITH {props.name}</Text>
                 <Image source={require('../../assets/images/google.jpg')} style={{width:25, height:25,alignSelf: 'flex-end'}}/>
                 </View>              
