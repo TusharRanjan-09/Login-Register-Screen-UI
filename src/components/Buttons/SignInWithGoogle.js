@@ -6,18 +6,18 @@ function Google(props) {
     
     return (
         <View style={{alignItems: 'center',marginVertical:10 }}>
-            <View style={{ borderWidth:1, borderRadius:30,width: '80%',marginBottom:10}}>
-            <TouchableOpacity style={{justifyContent: 'center', alignItems: 'center',height:50 }}>
+            <View style={{ borderWidth:1.5, borderRadius:30,width: '80%',marginBottom:10, borderColor:'#3827b2'}}>
+            <TouchableOpacity style={{justifyContent: 'center', alignItems: 'center',height:50, }}>
                 <View style={{flexDirection:'row'}}>
-                <Text style={{fontWeight: 'bold', fontSize:19, paddingHorizontal:10}}>SIGN IN WITH {props.name}</Text>
+                <Text style={{fontWeight: 'bold', fontSize:17, paddingHorizontal:10}}>SIGN IN WITH {props.name}</Text>
                 <Image source={require('../../assets/images/google.jpg')} style={{width:25, height:25,alignSelf: 'flex-end'}}/>
                 </View>              
             </TouchableOpacity>
             </View>
-            <View style={{ borderWidth:1, borderRadius:30,width: '80%',}}>
-            <TouchableOpacity style={{justifyContent: 'center', alignItems: 'center',height:50 }}>
+            <View style={{  borderRadius:30,width: '80%', backgroundColor: '#4966a3'}}>
+            <TouchableOpacity style={{justifyContent: 'center', alignItems: 'center',height:50, }}>
                 <View style={{flexDirection:'row'}}>
-                <Text style={{fontWeight: 'bold', fontSize:19, paddingHorizontal:10}}>SIGN IN WITH {props.name2}</Text>
+                <Text style={{fontWeight: 'bold', fontSize:17, paddingHorizontal:10, color: 'white'}}>SIGN IN WITH {props.name2}</Text>
                 <Image source={require('../../assets/images/facebook.png')} style={{width:25, height:25, alignSelf: 'flex-end'}}/>
                 </View>              
             </TouchableOpacity>
