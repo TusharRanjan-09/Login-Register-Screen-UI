@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, Dimensions } from 'react-native';
+import Entypo from 'react-native-vector-icons/Entypo'
 import LinearGradient from 'react-native-linear-gradient';
 import Button from '../components/Buttons/Button';
 function Login() {
@@ -22,7 +23,8 @@ function Login() {
             </View>
             <View style={{backgroundColor: 'yellow', position: 'absolute', top:Height/4, width: '95%', alignSelf: 'center', height:Height/2, borderRadius:20}}>
                 <Text style={{color: 'black', alignSelf: 'center', fontWeight: 'bold', fontSize:25, padding:10}}>Sign In</Text>
-                <Button/>
+                <Button data={'Enter Your Email'} icon={Entypo} name={"mail"}/>
+                <Button data={'Password'} icon={Entypo} name={"key"}/>
             </View>
         </View>
     );
