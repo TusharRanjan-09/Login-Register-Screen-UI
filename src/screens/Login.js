@@ -6,24 +6,25 @@ import LinearGradient from 'react-native-linear-gradient';
 import Button from '../components/Buttons/Button';
 import Input from '../components/Input/TextInput';
 import SignIn from '../components/Buttons/SignInWithGoogle';
+
 function Login() {
     const Width  = Dimensions.get('screen').width
     const Height  = Dimensions.get('screen').height
     return (
         <View style={{ flex: 1, }}>
             <View style={{flex:5.3}}>
-                <LinearGradient start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} colors={['#7F53AC', '#647DEE']} style={styles.linearGradient}>
-                    <Text style={styles.buttonText}>Sign in with Facebook</Text>
+                <LinearGradient start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} colors={[ '#6548be','#4a23ae',]} style={styles.linearGradient}>
+                    {/* <Text style={styles.buttonText}>Sign in with Facebook</Text> */}
                 </LinearGradient>
             </View>
            
-            <View style={{flex:5, backgroundColor: 'red'}}>
+            <View style={{flex:5, backgroundColor: 'white'}}>
               
                 {/* <LinearGradient start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} colors={['#7F53AC', '#647DEE']} style={styles.linearGradient}>
                     <Text style={styles.buttonText}>Sign in with Facebook</Text>
                 </LinearGradient> */}
             </View>
-            <View style={{backgroundColor: 'yellow', position: 'absolute', top:Height/4, width: '95%', alignSelf: 'center', height:Height/2, borderRadius:20}}>
+            <View style={{backgroundColor: 'white', position: 'absolute', top:Height/5, width: '95%', alignSelf: 'center', height:Height/1.82, borderRadius:20, elevation:5}}>
                 <Text style={{color: 'black', alignSelf: 'center', fontWeight: 'bold', fontSize:25, padding:10}}>Sign In</Text>
                 <Input data={'Enter Your Email'} icon={Entypo} name={"mail"}/>
                 <Input data={'Password'} icon={Entypo} name={"key"}/>
@@ -32,7 +33,7 @@ function Login() {
                 </TouchableOpacity>
                 <Button/>
                 <Text style={{alignSelf:'center'}}>OR</Text>
-                <SignIn/>
+                <SignIn name="GOOGLE" name2="FACEBOOK" />
             </View>
         </View>
     );
