@@ -14,10 +14,9 @@ function Login() {
         <View style={{ flex: 1, }}>
             <View style={{flex:5.3}}>
                 <LinearGradient start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} colors={[ '#4a21b2','#6519a0',]} style={styles.linearGradient}>
-                  
+      
                 </LinearGradient>
-            </View>
-           
+            </View>         
             <View style={{flex:5, backgroundColor: 'white'}}>
               
    
@@ -42,8 +41,7 @@ const styles = StyleSheet.create({
     linearGradient: {
         flex: 1,
         paddingLeft: 15,
-        paddingRight: 15,
-        borderRadius: 5,
+        paddingRight: 15,       
         height: 10
     },
     buttonText: {
