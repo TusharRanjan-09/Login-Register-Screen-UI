@@ -7,9 +7,9 @@ function Button(props) {
     return (
         <View style={{alignItems: 'center',marginBottom:10, }}>
             <LinearGradient start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} colors={[ '#3827b2','#6c18a4',]} style={{width: '80%',borderRadius:30}} >
-            <TouchableOpacity style={{ height:50, borderRadius:30, justifyContent: 'center', alignItems: 'center', }}>
+            <TouchableOpacity style={{ height:50, borderRadius:30, justifyContent: 'center', alignItems: 'center', }} >
             
-            <Text style={{fontWeight: 'bold', fontSize:19, color: 'white'}}>LOGIN</Text>
+            <Text style={{fontWeight: 'bold', fontSize:19, color: 'white' ,}}  >LOGIN</Text>
               
             </TouchableOpacity>
             </LinearGradient>  
