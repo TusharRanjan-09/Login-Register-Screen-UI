@@ -31,15 +31,9 @@ function Register({navigation}) {
                 <Input data={'Enter Your Phone Number'} icon={Entypo} name={"phone"} />
                 <Input data={'Enter Your Email'} icon={Entypo} name={"mail"} />
                 <Input data={'Enter Password'} icon={Entypo} name={"key"} in={true}/>
-                <Input data={'Confirm Password'} icon={Entypo} name={"key"} in={true} />
-     
+                <Input data={'Confirm Password'} icon={Entypo} name={"key"} in={true} />    
                 <Button />
-              
-             
-
-
             </View>
-
         </KeyboardAvoidingView>
     );
 }
