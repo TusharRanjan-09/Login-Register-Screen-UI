@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, Dimensions } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
+import Button from '../components/Buttons/Button';
 function Login() {
     const Width  = Dimensions.get('screen').width
     const Height  = Dimensions.get('screen').height
@@ -19,8 +20,9 @@ function Login() {
                     <Text style={styles.buttonText}>Sign in with Facebook</Text>
                 </LinearGradient> */}
             </View>
-            <View style={{backgroundColor: 'yellow', position: 'absolute', top:Height/4, width: '95%', alignSelf: 'center', height:Height/2}}>
-                <Text>Hello</Text>
+            <View style={{backgroundColor: 'yellow', position: 'absolute', top:Height/4, width: '95%', alignSelf: 'center', height:Height/2, borderRadius:20}}>
+                <Text style={{color: 'black', alignSelf: 'center', fontWeight: 'bold', fontSize:25, padding:10}}>Sign In</Text>
+                <Button/>
             </View>
         </View>
     );
