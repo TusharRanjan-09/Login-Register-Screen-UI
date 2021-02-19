@@ -25,7 +25,7 @@ function Login({navigation}) {
                     </TouchableOpacity>
                 </View>
             </View>
-            <View style={{ backgroundColor: 'white', position: 'absolute', top: Height / 5, width: '90%', alignSelf: 'center', height: Height / 1.82, borderRadius: 20, elevation: 5 }}>
+            <View style={{ backgroundColor: 'white', position: 'absolute', top: Height / 5, width: '90%', alignSelf: 'center', height: Height / 1.82, borderRadius: 20, elevation: 10 }}>
                 <Text style={{ color: 'black', alignSelf: 'center', fontWeight: 'bold', fontSize: 25, padding: 10 }}>Sign In</Text>
                 <Input data={'Enter Your Email'} icon={Entypo} name={"mail"} />
                 <Input data={'Password'} icon={Entypo} name={"key"} />
