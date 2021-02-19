@@ -13,7 +13,7 @@ function Login() {
     return (
         <View style={{ flex: 1, }}>
             <View style={{flex:5.3}}>
-                <LinearGradient start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} colors={[ '#6548be','#4a23ae',]} style={styles.linearGradient}>
+                <LinearGradient start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} colors={[ '#4a21b2','#6519a0',]} style={styles.linearGradient}>
                     {/* <Text style={styles.buttonText}>Sign in with Facebook</Text> */}
                 </LinearGradient>
             </View>
@@ -24,7 +24,7 @@ function Login() {
                     <Text style={styles.buttonText}>Sign in with Facebook</Text>
                 </LinearGradient> */}
             </View>
-            <View style={{backgroundColor: 'white', position: 'absolute', top:Height/5, width: '95%', alignSelf: 'center', height:Height/1.82, borderRadius:20, elevation:5}}>
+            <View style={{backgroundColor: 'white', position: 'absolute', top:Height/5, width: '90%', alignSelf: 'center', height:Height/1.82, borderRadius:20, elevation:5}}>
                 <Text style={{color: 'black', alignSelf: 'center', fontWeight: 'bold', fontSize:25, padding:10}}>Sign In</Text>
                 <Input data={'Enter Your Email'} icon={Entypo} name={"mail"}/>
                 <Input data={'Password'} icon={Entypo} name={"key"}/>
