@@ -26,7 +26,7 @@ function Register({navigation}) {
                 </View>
             </View>
             <View style={{ backgroundColor: 'white', position: 'absolute', top: Height / 5, width: '90%', alignSelf: 'center', height: Height / 1.82, borderRadius: 20, elevation: 5 }}>
-                <Text style={{ color: 'black', alignSelf: 'center', fontWeight: 'bold', fontSize: 25, padding: 10 }}>Sign Up</Text>
+                <Text style={{ color: '#4a21b2', alignSelf: 'center', fontWeight: 'bold', fontSize: 25, padding: 10 }}>Sign Up</Text>
                 <Input data={'Enter Your Name'} icon={Entypo} name={"user"} />
                 <Input data={'Enter Your Phone Number'} icon={Entypo} name={"phone"} />
                 <Input data={'Enter Your Email'} icon={Entypo} name={"mail"} />

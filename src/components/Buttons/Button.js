@@ -3,22 +3,17 @@ import React from 'react';
 import { StyleSheet, Text, View, TextInput,TouchableOpacity } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 function Button(props) {
-    // console.warn(props.data)
     return (
         <View style={{alignItems: 'center',marginBottom:10, }}>
             <LinearGradient start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} colors={[ '#3827b2','#6c18a4',]} style={{width: '80%',borderRadius:30}} >
-            <TouchableOpacity style={{ height:50, borderRadius:30, justifyContent: 'center', alignItems: 'center', }} >
-            
-            <Text style={{fontWeight: 'bold', fontSize:19, color: 'white' ,}}  >LOGIN</Text>
-              
+            <TouchableOpacity style={{ height:50, borderRadius:30, justifyContent: 'center', alignItems: 'center', }} >          
+            <Text style={{fontWeight: 'bold', fontSize:19, color: 'white' ,}}  >LOGIN</Text>             
             </TouchableOpacity>
             </LinearGradient>  
         </View>
     );
 }
-
 export default Button;  
-
 const styles = StyleSheet.create({
     linearGradient: {
         flex: 1,
