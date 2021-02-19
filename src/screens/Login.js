@@ -14,7 +14,7 @@ function Login({navigation}) {
         <View style={{ flex: 1, }}>
             <View style={{ flex: 5.3 }}>
                 <LinearGradient start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} colors={['#4a21b2', '#6519a0',]} style={styles.linearGradient}>
-
+                <Text style={{color: 'white', fontSize:35, fontWeight: 'bold', alignSelf: 'center', paddingTop:70}}>Welcome to Sign In</Text>
                 </LinearGradient>
             </View>
             <View style={{ flex: 5, backgroundColor: 'white' }}>
